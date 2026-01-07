@@ -1,7 +1,7 @@
 # DC101_SnakeGame_ApinaoWalid
-A mobile friendly Snake Game with sound, settings, and animations with theme changes and Snake Skin
-##Project Title
-Snake Pro
+The Project tite: Snake Pro a mobile friendly Snake Game with sound, settings, and animations with theme changes and Snake Skin
+every score you gain your level will getting higher and higher and the higher level you got the fast the snake moving.
+
 Created by Walid R. Apinao
 ## Technologies Used
 - HTML
