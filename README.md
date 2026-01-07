@@ -9,7 +9,7 @@ Created by Walid R. Apinao
 - JavaScript
 - GitHub
 - ## Features
-- - Increasing speed difficulty
+- Increasing speed difficulty
 - Sound effects
 - High score using localStorage
 - Mobile touch controls
