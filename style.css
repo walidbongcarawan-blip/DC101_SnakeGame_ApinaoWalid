@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s;
+}
+
+.theme-dark {
+    background: radial-gradient(circle, #1f1f1f, #000);
+    color: #fff;
+}
+
+.theme-neon {
+    background: linear-gradient(135deg, #00f260, #0575e6);
+    color: #fff;
+}
+
+.theme-light {
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    color: #000;
+}
+
+.game-container {
+    background: rgba(0,0,0,0.35);
+    padding: 20px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+canvas {
+    background: #111;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button, select {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* JOYSTICK */
+.joystick-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#joystick-base {
+    width: 120px;
+    height: 120px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    position: relative;
+    touch-action: none;
+}
+
+#joystick-thumb {
+    width: 50px;
+    height: 50px;
+    background: #00f260;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    transition: 0.1s;
+}
